@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+    max-width: 1270px;
+}
+.hero-banner{
+    display: flex;
+    background-color:bisque;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    gap:40px;
+    border-radius: 25px;
+
+}
+
+.hero-banner img {
+    border-radius: 25px;
+}
+
+button {
+    background-color: lightgreen;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 10rem;
+    box-shadow: 15px 5px 2px salmon;
+}
