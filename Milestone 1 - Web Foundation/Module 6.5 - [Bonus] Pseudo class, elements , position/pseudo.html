@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h1:hover{
+            color: tomato;
+            background-color: gold;
+            font-size: 20px;
+            text-align:center;          
+        }
+        input:focus {
+            color : violet;
+            background-color: green;
+        }
+        li:last-child{
+            color: blue;
+            font-weight: bolder;
+        }
+        li:first-child{
+            color: red;
+            font-weight: bolder;
+        }
+        li:nth-child(2n){
+            color: purple;
+            font-weight: 900;
+            font-size: 24px;
+        }
+       a:visited{
+        color: green;
+        
+       }
+       input::placeholder{
+        color: palevioletred;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid tomato;
+       }
+    </style>
+</head>
+<body>
+    <h1>My Heading</h1>
+    <input type="text" name="" id=""> <br>
+    <input type="text" name="" id=""> <br>
+    <input type="text" name="" id="" placeholder="Hello dear.">
+    <a href="https://www.google.com/" target="_blank">google</a> 
+    <a href="https://www.facebook.com" target="_blank">facebook</a>
+<ul>
+    <li>Alia</li>
+    <li>jalia</li>
+    <li>galia</li>
+    <li>dalia</li>
+    <li>tolia</li>
+    <li>dolia</li>
+    <li>poria</li>
+</ul>
+    
+</body>
+</html>

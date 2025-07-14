@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .box{
+            border: 2px dotted plum;
+            width: 500px;
+            height: 500px;
+        }
+       /* .ring{
+            position: sticky;
+            border: 10px solid tomato;
+            top: 10px;
+        } */
+        .ring {
+            position : fixed;
+            top: 100px;
+            left: 50px;
+        }
+        .dummy{
+            height: 400px;
+            width: 400px;
+            border: 2px solid aqua;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <h1>CSS Position</h1>
+    <ol>
+        <!--Flow Related-->
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <!--Scroll Related-->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    
+    <div class="swim-container">
+        <div class="box body"><img src="swim ring.jpeg" alt=""></div>
+        <div class="box ring"><img src="swim ring.jpeg" alt=""></div>
+        <div class="box water"><img src="swim ring.jpeg" alt=""></div>
+        <div class="box"></div>
+        <div class="box"></div>
+         <div class="box"></div>
+    </div>
+
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+</body>
+</html>

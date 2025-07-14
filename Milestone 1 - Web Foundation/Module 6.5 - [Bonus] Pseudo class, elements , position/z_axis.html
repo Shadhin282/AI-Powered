@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Axis</title>
+    <style>
+        .box {
+            position: relative;
+        }
+        .boy{
+            z-index: 5;
+        }
+        .ring{
+            z-index: -1;
+            top: -120px;
+        }
+        .water{
+            top: -200px;
+            z-index:-3;
+        }
+
+        ::selection{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1> Z Index</h1>
+    <div class="swim-container">
+        <div class="box boy"><img src="swim ring.jpeg" alt=""></div>
+        <div class="box ring"><img src="swim ring.jpeg" alt=""></div>
+        <div class="box water"><img src="swim ring.jpeg" alt=""></div>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsa quos iure modi quis ex corrupti commodi suscipit sed consequuntur.</p>
+    <p>Odio quas minus nesciunt cum, fuga dolores corporis eaque, doloribus, incidunt eligendi explicabo facilis! Aliquam enim veritatis quaerat nam saepe.</p>
+    <button onclick="welcome()">click Here</button>
+
+    <script>
+        function welcome(){
+            //alert("Welcome!")
+            document.write("Hello !!!")
+        }
+    </script>
+</body>
+</html>
