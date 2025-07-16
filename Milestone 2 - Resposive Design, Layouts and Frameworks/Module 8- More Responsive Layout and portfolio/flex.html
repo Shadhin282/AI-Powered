@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex</title>
+    <style>
+        .container{
+            display: flex;
+            gap:30px;            
+        }
+        .box{
+        background-color: slateblue;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .container2{
+        margin-top:20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .item{
+        width:200px;
+        height: 100px;
+        border: 2px solid slateblue;
+    }
+    @media screen and (max-width:576px){
+        .container{
+            flex-direction: column;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1> Flexible Flex</h1>
+    <div class="container">
+        <div class="box">
+            <h3>First Box</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate laboriosam nemo doloremque distinctio aliquam, non sunt labore consectetur accusamus numquam.</p>
+        </div>
+        <div class="box">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquam harum officia voluptatem commodi excepturi, deleniti corporis hic quis id!</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="item">
+            <p>item - 1</p>
+        </div>
+        <div class="item">
+            <p>item - 2</p>
+        </div>
+        <div class="item">
+            <p>item - 3</p>
+        </div>
+        <div class="item">
+            <p>item - 4</p>
+        </div>
+        <div class="item">
+            <p>item - 5</p>
+        </div>
+        <div class="item">
+            <p>item - 6</p>
+        </div>
+        <div class="item">
+            <p>item - 7</p>
+        </div>
+        <div class="item">
+            <p>item - 8</p>
+        </div>
+        <div class="item">
+            <p>item - 9</p>
+        </div>
+        <div class="item">
+            <p>item - 10</p>
+        </div>
+    </div>
+</body>
+</html>
