@@ -1,0 +1,33 @@
+.header, .nav,.main ,.footer , .aside, .advertise {
+    background-color: tomato; 
+    border: 2px solid black; 
+    border-radius: 8px;
+}
+
+.header {
+    grid-area: header;
+}
+.nav {
+    grid-area: nav;
+}
+.main {
+    grid-area: main;
+}
+.aside {
+    grid-area: aside;
+}
+.advertise{
+    grid-area: advertise;
+}
+.footer {
+    grid-area: footer;
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header header  header header"
+    "nav    main    main   aside"
+    "nav    main    main   advertise"
+    "footer footer  footer footer"
+    ;
+}
